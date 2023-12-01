@@ -8,8 +8,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node ./build"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oniri-app/oniriNcp.git"
+  },
+  "keywords": [
+    "nkn"
+  ],
+  "author": "Stavros Charitakis",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oniri-app/oniriNcp/issues"
+  },
+  "homepage": "https://github.com/oniri-app/oniriNcp#readme",
   "devDependencies": {
     "@nkn/ncp": "^1.1.1",
     "brittle": "^3.3.2",
